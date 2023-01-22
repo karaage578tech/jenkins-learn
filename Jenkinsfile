@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Example SSH Username with private key') {
             steps {
-                sh 'echo "Hello"
+                sh 'echo "Hello"'
             }
         }
     }
